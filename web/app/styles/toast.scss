@@ -1,0 +1,67 @@
+.toast {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  .body {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 290px;
+    padding: 50px 20px 28px 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -165px;
+    text-align: center;
+  }
+
+  .icon {
+    border: 3px solid #FFFFFF;
+    position: absolute;
+    top: -44px;
+    left: 120px;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 100%;
+    background-image: url(../images/logo.png);
+  }
+
+  .title {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    color: #999999;
+    line-height: 22px;
+  }
+
+  .btns {
+    margin-top: 20px;
+    .btn {
+      border-radius: 5px;
+      display: inline-block;
+      height: 46px;
+      line-height: 46px;
+      width: 120px;
+      margin: 0px 10px;
+    }
+    .back-btn {
+      background-color: #EEEFF0;
+      color: #000000;
+    }
+    .submit-btn {
+
+    }
+  }
+}
+
+

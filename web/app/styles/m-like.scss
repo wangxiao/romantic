@@ -1,0 +1,107 @@
+$red: rgb(255, 77, 50);
+$white: rgb(255, 255, 255);
+
+.m-like {
+  height: 100%;
+  .user-info {
+    position: relative;
+    min-height: 330px;
+    height: 70%;
+    .photo {
+      height: 100%;
+      overflow: hidden;
+      background-size: cover;
+      background-position: 50% 20%;
+    }
+    .words {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+      padding: 30px 0px 30px 30px;
+      // background-color: rgba(0, 0, 0, 0.2);
+      background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+      .name {
+        color: $white;
+        font-size: 20px;
+        border-bottom: 1px solid $white;
+        width: 180px;
+        line-height: 48px;
+        font-size: 22px;
+      }
+      .tips {
+        color: $white;
+        padding-right: 30px;
+        margin-top: 15px;
+      }
+    }
+  }
+  .tools {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0 0 0;
+    position: relative;
+    .tips {
+      color: $red;
+      margin-bottom: 20px;
+    }
+    .btns {
+      position: relative;
+      width: 270px;
+      margin-left: -135px;
+      left: 50%;
+      height: 60px;
+      .like-btn {
+        display: inline-block;
+        height: 60px;
+        line-height: 60px;
+        width: 120px;
+        position: absolute;
+        overflow: hidden;
+        left: 0px;
+      }
+      .unlike-btn, .back-btn, .share-btn {
+        display: inline-block;
+        height: 60px;
+        font-size: 15px;
+        line-height: 60px;
+        width: 120px;
+        position: absolute;
+        right: 0px;
+      }
+      .unlike-btn, .back-btn {
+        background-color: $white;
+        color: rgb(111, 111, 111);
+      }
+      .back-btn {
+        left: 0px;
+      }
+    }
+  }
+  .share-cover {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: $white;
+    .arrow {
+      width: 50px;
+      height: 40px;
+      position: absolute;
+      right: 16px;
+      top: 16px;
+      background: url(../images/share-arrow.png) no-repeat;
+      background-size: contain;
+    }
+    .words {
+      font-size: 15px;
+      line-height: 23px;
+      position: absolute;
+      right: 71px;
+      top: 37px;
+      text-align: right;
+    }
+  }
+}

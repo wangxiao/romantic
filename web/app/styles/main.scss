@@ -1,0 +1,110 @@
+// bower:scss
+// endbower
+
+$red: rgb(255, 77, 50);
+$white: rgb(255, 255, 255);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#romantic-app {
+  height: 100%;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 124px;
+  height: 31px;
+  line-height: 31px;
+  background-color: $red;
+  color: $white;
+  text-align: center;
+  box-shadow: 3px 3px 15px #aaaaaa;
+
+  &.big-btn {
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    width: 230px;
+  }
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid rgb(153, 153, 153);
+  border-radius: 0px;
+  width: 230px;
+  font-size: 15px;
+  line-height: 40px;
+  &::-webkit-input-placeholder {
+    color: rgb(169, 169, 169);
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.upload-btn {
+  color: $red;
+  border: 1px solid $red;
+  border-radius: 100%;
+  width: 152px;
+  height: 152px;
+  line-height: 110px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 70px;
+  font-weight: 100;
+  position: relative;
+  overflow: hidden;
+  .upload-word {
+    font-weight: normal;
+    font-size: 16px;
+    position: absolute;
+    left: 45px;
+    top: 47px;
+  }
+  .upload-loading {
+    font-weight: normal;
+    font-size: 20px;
+    position: absolute;
+    left: 43px;
+    top: 20px;
+  }
+}
+
+#upload-file-form {
+  input[type=file] {
+    cursor: default;
+    position: absolute;
+    top: -28px;
+    left: -115px;
+    height: 186px;
+    width: 380px;
+  }
+}
+
+.weixin-image {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+@import "heart-btn";
+@import "toast";
+@import "m-create";
+@import "m-like";
+

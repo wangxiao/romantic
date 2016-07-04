@@ -1,0 +1,23 @@
+.heart-button {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../images/heart-animation.png) no-repeat;
+  background-position: 0 0;
+  &.play {
+    animation: fave-heart 1s steps(28);
+    background-position: -2800px 0;
+  }
+}
+
+@keyframes fave-heart {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -2800px 0;
+  }
+}
