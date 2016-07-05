@@ -9,13 +9,18 @@
 
 'use strict';
 
+const AV = require('leanengine');
 const tool = require('./tool');
 
-let pub = {};
+const pub = {};
 
 // 发送短信
-pub.sendSms = () => {
-
-};
+pub.sendSms = (phone, fromName, toName) =>
+  AV.Cloud.requestSmsCode({
+    mobilePhoneNumber: phone,
+    template: 'loveMsgTpl',
+    fromName,
+    toName,
+  });
 
 module.exports = pub;
