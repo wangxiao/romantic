@@ -10,6 +10,10 @@ A full stack web project, all by using LeanCloud, as a LeanEngine demo.
 
 ![image](http://ac-kckdyoqh.clouddn.com/02143398c35fcb54.png)
 
+## 特别鸣谢
+
+非常感谢吴力扬参与产品讨论，并负责界面设计，我个人觉得这个产品界面设计地非常优美，很喜欢。
+
 ## 技术简介
 
 服务端完全使用 LeanCloud，托管于 LeanEngine（LeanCloud 的服务端环境）。Web App 是通过自定义的 API，纯前端调用的方式实现。服务端技术栈主要是 Nodejs + Express，前端技术栈主要是 Vuejs。代码全部采用 ES6 的语法编写，服务端使用 async/await 来处理异步（前端需考虑兼容性）。
