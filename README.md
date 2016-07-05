@@ -20,7 +20,7 @@ A full stack web project, all by using LeanCloud, as a LeanEngine demo.
 
 产品主界面效果图
 
-<img src="http://ac-kckdyoqh.clouddn.com/7f991d45ca287af0.jpg" style="height:500px;border:1px solid #CCCCCC;">
+![image](http://ac-kckdyoqh.clouddn.com/3cf08487dffd0cc1.png)
 
 ## 技术简介
 
