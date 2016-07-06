@@ -110,11 +110,6 @@ $ gulp serve
 
 ## 接口
 
-router.post('/users/:uid/like', userM.like);
-router.post('/users/:uid/unlike', userM.unlike);
-router.get('/weixin/', weixinM.getSign);
-
-
 ### 提交用户信息
 
 - POST
