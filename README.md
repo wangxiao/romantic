@@ -30,7 +30,7 @@ A full stack web project, all by using LeanCloud, as a LeanEngine demo.
 
 ```
 .
-├── public                  // 打包后部署的前端代码
+├── public                  // 打包后部署的前端代码（自动生成）
 ├── server                  // 服务端代码模块
 ├── web                     // 前端开发期的代码
 ├── server.js               // 服务端的前置启动逻辑
